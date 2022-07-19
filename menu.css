@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding:8px 0;
+	background-color: black;
+}
+.medsos p{
+	color: white;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 8px;
+}
+.container {
+	width:100%;
+	min-height: 20px;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding:10px 20px;
+	color: #black;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+
+}
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+}
+header ul li a:hover,
+header ul li a.active{
+	background: #DEDEDE;
+	color: black;
+}
+.active {
+	background-color: #DEDEDE;
+	color: #black;
+}	
+.active1 {
+	background-color: white;
+	border-radius: 30px;
+}
+section{
+	padding: 41px 0;
+	border-radius: 10px;
+}
+.banner h2 {
+	color: #black;
+	position: relative;
+	text-align: center;
+	padding: 50px 20px;
+/*	border:3px solid #FF0000;*/
+}
+
+footer {
+	width: 100%;
+	padding: 30px;
+	position: absolute;
+	top: 1000px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.bg-loader {
+	background-color: #DEDEDE;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg-loader .loader {
+	width:100px;
+	height: 100px;
+	border:3px solid #fff;
+	border-radius: 50%;
+	border-top-color: #DEDEDE];
+	border-right-color: #DEDEDE;
+	border-bottom-color: #DEDEDE;
+	animation: puterin .8s linear infinite;
+}
+.label {
+	background-color: #DEDEDE;
+	color: #fff;
+}
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 600px;
+
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 600px;
+}
+ .content-slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.imgslide {
+    display: 0s;
+}
+
+img {
+    right: 90px;
+    bottom: 10px;
+    width:600px;height: 400px;
+    padding: 0 2px;
+    margin-left: 155px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 254, 224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 2px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+.content-slide .numberslide {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
